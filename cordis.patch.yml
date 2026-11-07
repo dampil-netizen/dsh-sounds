@@ -1,0 +1,8 @@
+# dsh-sounds: звуковые уведомления о событиях агента.
+# Хост-плагин: слушает session/event и играет wav через PowerShell SoundPlayer
+# (запускается из host-процесса, песочница оболочки тут ни при чём).
+- insert:
+    - id: dsh-sounds
+      name: '@local/dsh-sounds'
+      config:
+        enabled: true

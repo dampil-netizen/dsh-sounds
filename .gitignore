@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# Собранные пакеты
+*.tgz
+dist/
+
+# ОС/редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Логи
+*.log

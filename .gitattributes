@@ -1,0 +1,5 @@
+# нормализуем переводы строк в коде, бинарники не трогаем
+* text=auto eol=lf
+*.wav binary
+*.png binary
+*.ico binary

@@ -1,0 +1,51 @@
+{
+  "name": "dsh-sounds",
+  "version": "1.0.0",
+  "description": "Sound notifications for DeepSeek Harness: plays done/ask/error cues on turn end, approval requests and user questions.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "bundle",
+    "plugin",
+    "sounds",
+    "notifications"
+  ],
+  "license": "MIT",
+  "author": "Vik",
+  "homepage": "https://github.com/CHANGE-ME/dsh-sounds#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHANGE-ME/dsh-sounds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHANGE-ME/dsh-sounds/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "assets/*.wav",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "check": "node --check index.js",
+    "pack": "npm pack"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
