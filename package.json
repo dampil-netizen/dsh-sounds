@@ -13,13 +13,13 @@
   ],
   "license": "MIT",
   "author": "Vik",
-  "homepage": "https://github.com/CHANGE-ME/dsh-sounds#readme",
+  "homepage": "https://github.com/dampil-netizen/dsh-sounds#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CHANGE-ME/dsh-sounds.git"
+    "url": "git+https://github.com/dampil-netizen/dsh-sounds.git"
   },
   "bugs": {
-    "url": "https://github.com/CHANGE-ME/dsh-sounds/issues"
+    "url": "https://github.com/dampil-netizen/dsh-sounds/issues"
   },
   "type": "module",
   "exports": {

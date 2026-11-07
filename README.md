@@ -66,7 +66,7 @@ MIT.
 
 ## Публикация / репозиторий
 
-Замените `CHANGE-ME` в полях `repository` / `homepage` / `bugs` файла `package.json`
+Замените `dampil-netizen` в полях `repository` / `homepage` / `bugs` файла `package.json`
 на ваш GitHub-аккаунт.
 
 ```bash
